@@ -1,0 +1,7 @@
+.text{display: block; margin: 0 auto; font-size: 16pt; width: 450px; text-align: center;}
+.table{width: 456px; height: 456px; margin: 0 auto; display: table;}
+.table-cell{width: 150px; height: 150px; border: 1px black solid; display: inline-block; float: left; cursor: pointer; position: relative;}
+.table-cell:nth-child(2N){background: rgba(0,0,0, 0.1);}
+.game-status{width: 50%; height: 80px; display: block; margin: 25px auto 0; border: 1px solid black}
+.round{width: 150px; height: 150px; background: url("round.png") no-repeat; z-index: 100; display: block; position: absolute;}
+.cross{width: 150px; height: 150px; background: url("cross.png") no-repeat; z-index: 100; display: block; position: absolute;}
